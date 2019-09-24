@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">eventy</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_started">STARTED</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_sign_up">регистрация</string>
+    <string name="organizator">организатор</string>
+    <string name="action_logout">Выйти</string>
+    <string name="profile">Профиль</string>
+    <string name="gotocreate">создать event</string>
+    <string name="textname">Your name</string>
+    <string name="passwordtext">password</string>
+    <string name="action_edit_prof_pic">EDIT PROFILE PICTURE</string>
+    <string name="action_edit_event_pic">EDIT PREVIEW</string>
+    <string name="Name_event_edit">Название мероприятия</string>
+    <string name="event_info_edit">Информация о мероприятии</string>
+    <string name="action_get_eventURL">Сылка на сайт организатора</string>
+    <string name="action_addevent">Выложить</string>
+    <string name="new_text">NEW</string>
+    <string name="all_text">ALL</string>
+    <string name="recommended_text">RECOMMENDED</string>
+    <string name="action_buy_event">КУПИТЬ</string>
+</resources>

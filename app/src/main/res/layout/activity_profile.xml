@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/LoginIm"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:paddingTop="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/loginim" />
+
+    <TextView
+        android:id="@+id/edit_profile_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/action_edit_prof_pic"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/LoginIm"
+        app:layout_constraintStart_toStartOf="@+id/LoginIm"
+        app:layout_constraintTop_toBottomOf="@+id/LoginIm" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/LoginIm"
+        app:layout_constraintStart_toStartOf="@+id/LoginIm"
+        app:layout_constraintTop_toTopOf="@+id/LoginIm" />
+
+</android.support.constraint.ConstraintLayout>
